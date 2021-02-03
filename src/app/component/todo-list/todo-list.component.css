@@ -4,11 +4,11 @@
     font-size: 18px;
     margin-bottom: 16px;
   }
-  
+
   .todo-input:focus {
     outline: 0;
   }
-  
+  /* /////git */
   .todo-item {
     margin-bottom: 12px;
     display: flex;
@@ -16,28 +16,28 @@
     justify-content: space-between;
     animation-duration: 0.3s;
   }
-  
+
   .remove-item {
     cursor: pointer;
     margin-left: 14px;
   }
-  
+
   .remove-item:hover {
     color: black;
   }
-  
+
   .todo-item-left {
     /* later */
     display: flex;
     align-items: center;
   }
-  
+
   .todo-item-label {
     padding: 10px;
     border: 1px solid white;
     margin-left: 12px;
   }
-  
+
   .todo-item-edit {
     font-size: 24px;
     color: #2c3e50;
@@ -47,16 +47,16 @@
      border: 1px solid #ccc; /*override defaults */
     font-family: "Avenir", Helvetica, Arial, sans-serif;
   }
-  
+
   .todo-item-edit:focus {
     outline: none;
   }
-  
+
   .completed {
     text-decoration: line-through;
     color: grey;
   }
-  
+
   .extra-container {
     display: flex;
     align-items: center;
@@ -66,33 +66,32 @@
     padding-top: 14px;
     margin-bottom: 14px;
   }
-  
+
   button {
     font-size: 14px;
     background-color: white;
     appearance: none;
   }
-  
+
   button:hover {
     background: lightgreen;
   }
-  
+
   button:focus {
     outline: none;
   }
-  
+
   .active {
     background: lightgreen;
   }
-  
+
   /* CSS Transitions */
   .fade-enter-active,
   .fade-leave-active {
     transition: opacity 0.2s;
   }
-  
+
   .fade-enter,
   .fade-leave-to {
     opacity: 0;
   }
-  
