@@ -1,0 +1,91 @@
+prez angular
+prez type script
+different features
+
+//
+//
+// Installer Node
+//
+// 
+https://nodejs.org/en/
+
+
+//
+// A taper dans CMD (Windows) ou Terminal(Mac)
+//
+
+
+//
+//
+// Connaitre la version de Node
+//
+// 
+node --version
+
+
+//
+//
+// Installer typescript sur windows
+//
+// 
+npm install -g typescript
+
+
+//
+//
+// Installer typescript sur mac
+//
+//
+sudo npm install -g typescript (faire mot de passe et entrée)
+
+
+//
+//
+// Connaitre la version de typescript
+//
+//
+tsc -v
+
+//
+//
+// Savoir ou je suis sur pc
+//
+// 
+echo %cd%
+
+
+//
+//
+// Savoir ou je suis sur mac
+//
+// 
+pwd
+
+//
+//
+// Savoir ce qu'il y a à l'intérieur d'un dossier sur windows
+//
+//
+dir
+
+//
+//
+// Savoir ce qu'il y a à l'intérieur d'un dossier sur mac
+//
+//
+ls
+
+//
+//
+// Transformer un fichier TypeScript en fichier JavaScript
+//
+//
+
+tsc main.ts (main.ts étant le fichier TypeScript)
+
+//
+//
+// Lancer un fichier JavaScript avec Node
+//
+//
+node main.js

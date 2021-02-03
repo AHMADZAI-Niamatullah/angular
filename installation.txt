@@ -1,0 +1,130 @@
+
+//
+//
+//  Télécharger dans visual code
+//
+//
+
+
+
+Angular Language Service
+Angular console
+
+
+//
+//
+// ALLER DANS LE DOSSIER OÙ L'ON SOUHAITE GÉNÉRER L'APPLICATION
+//
+//
+
+cd leDossierOuVousSouhaitezCreerLapplication
+
+
+//
+//
+// POUR CRÉÉR UNE NOUVELLE APPLICATION
+//
+//
+
+ng new hellow-world
+install angular routine => y ET ENSUITE ENTRER
+choisir scss => APPUYER SUR ENTRER
+
+
+//
+//
+// UNE FOIS QUE L'APPLICATION A FINI DE SE CRÉÉR, ALLER DANS LE DOSSIER DE L'APP
+//
+//
+
+cd hello-world
+
+//
+//
+// UNE FOIS DEDANS ON DÉMARRE LE SERVE NODE
+//
+//
+
+ng serve
+
+//
+//
+// ALLER SUR LE SERVEUR LOCAL
+//
+//
+
+localhost:4200
+
+//
+//
+// if port 42:00 already in use // Killer les proccesses node en cours sur mac
+//
+//
+
+sudo kill `sudo lsof -t -i:4200`
+
+
+//
+//
+// if port 42:00 already in use // Killer les proccesses node en cours sur windows
+//
+//
+
+taskkill /f /im node.exe
+
+
+////////////////
+////////////////
+//////////////// ANGULAR
+////////////////
+////////////////
+
+//
+//
+// COMMENT CRÉÉR UN COMPOSANT
+//
+//
+
+ng g c components/courses
+
+//
+//
+// COMMENT CRÉÉR UN service
+//
+//
+
+ng g s services/courses
+
+//
+//
+// COMMENT STOPPER UN SERVER NODE
+//
+//
+dans le terminal vous faites ctr + c
+sinon vous lancez :
+sudo kill `sudo lsof -t -i:4200`
+
+//
+//
+// ANGULAR CLI
+//
+//
+npm installl -g @angular/cli
+ng update @angular/cli @angular/core
+ng —version
+
+//
+//
+// BUG FOCUS INPUT
+//
+//
+npm i ngx-autofocus-fix --save
+
+Au niveau du module.ts :
+
+import { AutofocusFixModule } from 'ngx-autofocus-fix'; // <--- new code
+
+Au niveau des imports de votre module ajouter cette ligne de code :
+AutofocusFixModule.forRoot()
+
+sur vos input dans le HTML ajouter : autofocus au niveau de l'input 
